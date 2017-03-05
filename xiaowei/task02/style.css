@@ -1,11 +1,35 @@
+html {
+  width: 100%;
+}
 body {
-  width: 90%;
-  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
+  background-color: #D3D3D3;
+}
+article, aside {
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888888;
+}
+.paragraph {
+  text-indent: 2em;
+  line-height: 1.5;
+}
+.author {
+  color: #D3D3D3;
+  font-size:0.5em;
+}
+.li1 {
+  list-style-type: none;
+  line-height: 1.5;
+}
+.li2 {
+  line-height: 1.5;
 }
 nav {
   height: 50px;
-  background-color: grey;
+  background-color: #545454;
   display: flex;
   margin-bottom: 10px;
 }
@@ -13,7 +37,7 @@ nav ul {
   padding: 0;
   flex: 2;
   display: flex;
-  margin-left: 500px;
+  margin-left: 60%;
 }
 
 nav li {
@@ -28,4 +52,75 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
+}
+
+.cell_pic {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: thin;;
+}
+.cell_pic p {
+  margin: 0 auto;
+  text-align: center;
+}
+.cell_pic img {
+  margin-left: 10%;
+  height: 80%;
+  width: 80%;
+}
+table {
+  width: 100%;
+}
+th {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+.tr_last {
+  background: #D3D3D3;
+  font-weight:bold; 
+}
+.submit {
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: #6A5ACD;
+  font-size: 1em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+aside {
+  width: 100%;
+}
+aside form {
+  width: 100%;
+}
+aside label {
+  padding-right: 5%;
+  width: 33%;
+  background-color:yellow;
+  text-align: right;
+}
+aside form input {
+  position: absolute;
+  left: 33%;
+}
+aside form p {
+  position-left:absolute;  
+  left: 33%;
+  font-size: 1em;
+}
+footer {
+  background: #000;
+  color: #fff;
+  min-height: 100px;
+  text-align: center;
+}
+footer p{
+  padding-top:30px;
+  font-size: 0.8em;
 }
