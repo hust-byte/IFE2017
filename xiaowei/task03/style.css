@@ -1,0 +1,40 @@
+div {
+	padding: 20px;
+	border: 1px solid #999;
+	overflow: auto;
+}
+img {
+	width: 80px;
+	height: 80px;
+}
+h2 {
+	margin-top:0px;
+}
+.container {
+	margin: 20px;
+	background-color: #eee;
+}
+.left {
+	float: left;
+	width: 160px;
+	background-color: white;
+}
+.left img {
+	float: left;
+	margin: 0 20px 0 0;
+}
+.middle {
+	margin-left: 220px;
+	margin-right: 140px;
+	
+}
+.right {
+	background-color: white;
+	float: right;
+	width: 120px;
+	padding: 0;
+}
+.right img {
+	display: block;
+	margin: 20px;
+}
