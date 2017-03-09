@@ -1,0 +1,170 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: sans-serif;
+}
+body {
+  min-width: 750px;
+  background-color: #D3D3D3;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+/* ----------header---------- */ 
+header {
+	background-color: #337AB7;
+  margin-top: 0;
+  width: 100%;
+  height: 50px;
+  display: table;
+}
+span {
+  height: 50px;
+}
+span img {
+  margin-left: 30px;
+  margin-top: 5px;
+  width: 200px;
+  height: 40px;
+}
+nav {
+  float: right;
+  height: 50px;
+}
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: left;
+  margin-right: 30px;
+  line-height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/* ----------main---------- */ 
+article, aside {
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 5px 5px 2px #888888;
+}
+article {
+  margin-right: 400px;
+}
+#article-img {
+  width: 50%;
+}
+.paragraph {
+  text-indent: 2em;
+  line-height: 1.5;
+}
+.author {
+  color: #D3D3D3;
+  font-size:0.5em;
+}
+.li1 {
+  list-style-type: none;
+  line-height: 1.5;
+}
+.li2 {
+  line-height: 1.5;
+}
+.article03 {
+  overflow: auto;
+}
+.cell_pic {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: thin;;
+  display: inline-block;
+}
+.cell_pic p {
+  margin: 0 auto;
+  text-align: center;
+}
+.cell_pic img {
+  margin-left: 10%;
+  height: 80%;
+  width: 80%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+article table tr td{
+    border:1px solid #ccc;
+}
+table th {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+.tr_last {
+  background: #D3D3D3;
+  font-weight:bold; 
+}
+
+aside {
+  float: right;
+  width: 300px;
+}
+aside h3 {
+  font-size: 16px;
+  border-left:3px solid #ccc;
+}
+aside form div {
+  margin-bottom: 10px;
+}
+aside form div label {
+  float:left;
+  padding-right: 15px;
+  width: 33%;
+  text-align: right;
+  display: block;
+}
+aside form div p {
+  margin-left: 33%;
+  padding-left: 15px;
+  margin-top: 5px;
+  color: grey;
+  font-size: 12px;
+}
+aside form div textarea {
+	width: 55%;
+	height: 5em;
+}
+.submit {
+  height: 40px;
+  width: 100%;
+  color: white;
+  background-color: #6A5ACD;
+  font-size: 1em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.submit:hover {
+	background-color: #BF3EFF;
+}
+/* ----------footer---------- */ 
+footer {
+  background: #5a5a5a;
+  color: #fff;
+  min-height: 80px;
+  text-align: center;
+}
+footer p{
+  padding-top:30px;
+  font-size: 0.8em;
+}
